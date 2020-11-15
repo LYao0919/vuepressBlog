@@ -1,7 +1,7 @@
 ###
  # @Author: your name
  # @Date: 2020-11-15 19:10:38
- # @LastEditTime: 2020-11-15 19:12:35
+ # @LastEditTime: 2020-11-15 19:42:29
  # @LastEditors: Please set LastEditors
  # @Description: In User Settings Edit
  # @FilePath: /vuepressBlog/aaa.sh
@@ -19,7 +19,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # 如果是发布到自定义域名
-# echo 'www.haohio.xyz' > CNAME
+echo 'www.haohio.xyz' > CNAME
 
 git init
 git add -A
